@@ -1,0 +1,19 @@
+.hidden {
+    display: none;
+}
+
+#clock, #greeting, #login-form, #todo-form, #todo-list{
+    text-align:center;
+    background-color: rgba(255,255,255,0.4);
+}
+
+img {
+    z-index : -1;
+    position:absolute;
+    top: 0;
+    left: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
